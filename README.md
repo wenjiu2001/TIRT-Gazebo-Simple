@@ -62,4 +62,3 @@ The "tirt_gazebo" ROS package is crafted with the objective of facilitating unco
 - Install Gazebo using Ubuntu packages (https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
 - TurtleBot3 Simulation (https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
 - TIRT (https://www.tirtpointsrace.org/)
-# TIRT-Gazebo-Simple
