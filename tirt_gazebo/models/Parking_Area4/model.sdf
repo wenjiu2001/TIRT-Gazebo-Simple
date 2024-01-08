@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+    <model name='Parking_Area4'>
+        <static>true</static>
+        <!-- Area -->
+        <link name="area">
+            <pose>0 0 0 0 0 0</pose>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.75 0.75 0.001</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://Parking_Area4/materials/scripts</uri>
+                        <uri>model://Parking_Area4/materials/textures</uri>
+                        <name>Area/Parking_Area4</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+    </model>
+</sdf>

@@ -1,0 +1,14 @@
+material Table/Preparation_Table
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture preparation_table.png
+      }
+    }
+  }
+}
+

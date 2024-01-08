@@ -1,0 +1,14 @@
+material Area/Preparation_Area
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture preparation_area.png
+      }
+    }
+  }
+}
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+    <model name='Operational_Table'>
+        <static>true</static>
+        <!-- Table -->
+        <link name="table">
+            <pose>0 0 0.375 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>1.8 0.6 0.75</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>1.8 0.6 0.75</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://Operational_Table/materials/scripts</uri>
+                        <uri>model://Operational_Table/materials/textures</uri>
+                        <name>Table/Operational_Table</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+        <!-- Chair_Upper_Left -->
+        <link name="chair_upper_left">
+            <pose>0.5 0.7 0.25 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>0.5 0.5 0.5</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.5 0.5 0.5</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://Operational_Table/materials/scripts</uri>
+                        <uri>model://Operational_Table/materials/textures</uri>
+                        <name>Table/Operational_Table</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+        <!-- Chair_Lower_Left -->
+        <link name="chair_lower_left">
+            <pose>-0.5 0.7 0.25 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>0.5 0.5 0.5</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.5 0.5 0.5</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://Operational_Table/materials/scripts</uri>
+                        <uri>model://Operational_Table/materials/textures</uri>
+                        <name>Table/Operational_Table</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+    </model>
+</sdf>

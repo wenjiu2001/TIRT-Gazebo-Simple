@@ -1,0 +1,14 @@
+material Table/Dining_Table
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture dining_table.png
+      }
+    }
+  }
+}
+

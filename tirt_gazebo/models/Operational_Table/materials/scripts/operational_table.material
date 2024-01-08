@@ -1,0 +1,14 @@
+material Table/Operational_Table
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture operational_table.png
+      }
+    }
+  }
+}
+

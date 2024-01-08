@@ -1,0 +1,14 @@
+material Area/Start_Area
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture start_area.png
+      }
+    }
+  }
+}
+

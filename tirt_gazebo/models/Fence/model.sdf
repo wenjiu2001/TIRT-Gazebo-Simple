@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+    <model name='Fence'>
+        <static>true</static>
+        <!-- Fence_Up -->
+        <link name="fence_up">
+            <pose>3.05 0 0.375 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>0.1 8.2 0.75</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.1 8.2 0.75</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/Blue</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+        <!-- Fence_Down -->
+        <link name="fence_down">
+            <pose>-3.05 0 0.375 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>0.1 8.2 0.75</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.1 8.2 0.75</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/Blue</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+        <!-- Fence_Left -->
+        <link name="fence_left">
+            <pose>0 4.05 0.375 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>6 0.1 0.75</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>6 0.1 0.75</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/Blue</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+        <!-- Fence_Right -->
+        <link name="fence_right">
+            <pose>0 -4.05 0.375 0 0 0</pose>
+            <collision name="visual">
+                <geometry>
+                    <box>
+                        <size>6 0.1 0.75</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>6 0.1 0.755</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/Blue</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+    </model>
+</sdf>

@@ -1,0 +1,14 @@
+material Area/Parking_Area3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture parking_area3.png
+      }
+    }
+  }
+}
+

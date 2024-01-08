@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>tirt_gazebo</name>
+    <version>0.1.0</version>
+    <description>The tirt_gazebo package</description>
+    <maintainer email="tp6u4jo6@gmail.com">Wenjiu</maintainer>
+    <license>TODO</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>gazebo_ros</depend>
+
+    <export>
+        <gazebo_ros gazebo_model_path="${prefix}/models"/>
+        <gazebo_ros gazebo_media_path="${prefix}/models"/>
+    </export>
+</package>
