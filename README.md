@@ -1,5 +1,8 @@
 # TIRT-Gazebo-Simple
 
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](<Redirect-URL>)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 The "tirt_gazebo" ROS package is crafted with the objective of facilitating uncomplicated simulation validation for the TIRT Intelligent Service Competition - Food Runner Robots.
 
 ## Environment
