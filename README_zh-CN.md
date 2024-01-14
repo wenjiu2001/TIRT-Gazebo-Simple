@@ -4,16 +4,16 @@
 [![Ubuntu:Focal](https://img.shields.io/badge/Ubuntu-Focal-brightgreen)](https://releases.ubuntu.com/focal/)
 [![ROS:Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](https://wiki.ros.org/noetic/Installation/Ubuntu)
 
-<kbd> <br> English <br> </kbd>
-<kbd> <br> [简体中文][zh-CN] <br> </kbd>
+<kbd> <br> [English][en] <br> </kbd>
+<kbd> <br> 简体中文 <br> </kbd>
 <kbd> <br> [繁體中文][zh-TW] <br> </kbd>
 
-[zh-CN]: README_zh-CN.md
+[en]: README.md
 [zh-TW]: README_zh-TW.md
 
-The "tirt_gazebo" ROS package is crafted with the objective of facilitating uncomplicated simulation validation for the TIRT Intelligent Service Competition - Food Runner Robots.
+“tirt_gazebo” ROS 软件包旨在为 TIRT 智慧服务竞赛 - 送餐机器人提供简便的仿真验证工具。
 
-## Requirements
+## 软件依赖
 
 - Gazebo
    ```
@@ -24,42 +24,42 @@ The "tirt_gazebo" ROS package is crafted with the objective of facilitating unco
    sudo apt-get install ros-noetic-turtlebot3*
    ```
 
-## Install and Build
+## 安装并构建
 
-1. Navigating to the "src" directory within your catkin workspace :
+1. 导航至您的 catkin 工作空间内的「src」目录：
    ```
    cd ~/catkin_ws/src
    ```
-2. Clone tirt_gazebo package for github :
+2. 从 GitHub 克隆 tirt_gazebo 包至本地端：
    ```
    git clone https://github.com/wenjiu2001/TIRT-Gazebo-Simple.git tirt_gazebo
    ```
-3. Build tirt_gazebo package :
+3. 构建 tirt_gazebo 包：
    ```
    cd ~/catkin_ws && catkin_make
    ```
-4. Package environment setup :
+4. 包环境设置：
    ```
    source ./devel/setup.sh
    ```
 
-## How to Use
+## 使用方法
 
-1. Add permanent workspace environment variables :
+1. 添加永久性工作空间环境变量：
 
-   Note: "{TURTLEBOT3_MODEL}" represents the name of the utilized models: "burger", "waffle", or "waffle_pi".
+   注：「{TURTLEBOT3_MODEL}」代表所使用的模型名称：「burger」、「waffle」或「waffle_pi」。
    ```
    echo "export TURTLEBOT3_MODEL={TURTLEBOT3_MODEL}" >> ~/.bashrc
    ```
    ```
    source ~/.bashrc
    ```
-2. Launch Simulation World :
+2. 启动仿真世界：
    ```
    roslaunch tirt_gazebo turtlebot3_tirt.launch
    ```
    
-## References
+## 参考资料
 
 - Ubuntu install of ROS Noetic (https://wiki.ros.org/noetic/Installation/Ubuntu)
 - Install Gazebo using Ubuntu packages (https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
