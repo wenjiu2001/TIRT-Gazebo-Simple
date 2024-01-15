@@ -50,7 +50,7 @@ Adjustments can be made by modifying the following parameters:
 | Parameter name | Data Type | Detail                                                            |
 | -------------- | --------- | ----------------------------------------------------------------- |
 | model          | string    | Set the Turtlebot3 robot model. <br/>default: `null`              |
-| x_pos          | float     | Set the initial X-axis position of the robot. <br/>default: `0.1` |
+| x_pos          | float     | Set the initial X-axis position of the robot. <br/>default: `0.0` |
 | y_pos          | float     | Set the initial Y-axis position of the robot. <br/>default: `2.7` |
 | z_pos          | float     | Set the initial Z-axis position of the robot. <br/>default: `0.0` |
 
