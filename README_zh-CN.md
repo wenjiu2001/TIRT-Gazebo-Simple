@@ -56,13 +56,24 @@
 
 1. 添加永久性工作空间环境变量：
 
-   注：「{TURTLEBOT3_MODEL}」代表所使用的模型名称：「burger」、「waffle」或「waffle_pi」。
-   ```
-   echo "export TURTLEBOT3_MODEL={TURTLEBOT3_MODEL}" >> ~/.bashrc
-   ```
-   ```
-   source ~/.bashrc
-   ```
+   - Turtlebot3模型
+
+      - Burger
+        ```
+        echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+        ```
+      - Waffle
+        ```
+        echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+        ```
+      - Waffle Pi
+        ```
+        echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+        ```
+   - 重新加载 .bashrc 文件
+     ```
+     source ~/.bashrc
+     ```
 2. 启动仿真世界：
    ```
    roslaunch tirt_gazebo turtlebot3_tirt.launch
@@ -70,7 +81,7 @@
    
 ## 参考资料
 
-- Ubuntu install of ROS Noetic (https://wiki.ros.org/noetic/Installation/Ubuntu)
-- Install Gazebo using Ubuntu packages (https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
-- TurtleBot3 Simulation (https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
-- TIRT (https://www.tirtpointsrace.org/)
+- [在Ubuntu上安装ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)
+- [使用Ubuntu软件包安装Gazebo](https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
+- [TurtleBot3 仿真](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+- [TIRT](https://www.tirtpointsrace.org/)

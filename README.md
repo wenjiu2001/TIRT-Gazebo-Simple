@@ -56,13 +56,24 @@ Adjustments can be made by modifying the following parameters:
 
 1. Add permanent workspace environment variables :
 
-   Note: "{TURTLEBOT3_MODEL}" represents the name of the utilized models: "burger", "waffle", or "waffle_pi".
-   ```
-   echo "export TURTLEBOT3_MODEL={TURTLEBOT3_MODEL}" >> ~/.bashrc
-   ```
-   ```
-   source ~/.bashrc
-   ```
+   - Turtlebot3 Model
+
+      - Burger
+        ```
+        echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+        ```
+      - Waffle
+        ```
+        echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+        ```
+      - Waffle Pi
+        ```
+        echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+        ```
+   - Reload the .bashrc file
+     ```
+     source ~/.bashrc
+     ```
 2. Launch Simulation World :
    ```
    roslaunch tirt_gazebo turtlebot3_tirt.launch
@@ -70,7 +81,7 @@ Adjustments can be made by modifying the following parameters:
    
 ## References
 
-- Ubuntu install of ROS Noetic (https://wiki.ros.org/noetic/Installation/Ubuntu)
-- Install Gazebo using Ubuntu packages (https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
-- TurtleBot3 Simulation (https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
-- TIRT (https://www.tirtpointsrace.org/)
+- [Ubuntu install of ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)
+- [Install Gazebo using Ubuntu packages](https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
+- [TurtleBot3 Simulation](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+- [TIRT](https://www.tirtpointsrace.org/)
